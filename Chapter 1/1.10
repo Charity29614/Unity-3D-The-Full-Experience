@@ -1,0 +1,9 @@
+using UnityEngine;
+
+public class Rotate : MonoBehaviour
+{
+    public void RotateTheYaxis()
+    {                  //x  y   z
+        transform.Rotate(0, 20, 0);
+    }
+}
